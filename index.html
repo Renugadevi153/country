@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Country Info Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Country Info Finder</h1>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">                                                                             
+    <div class="hero-content">
+      <h2>Explore Country Details</h2>
+      <input type="text" id="countryInput" placeholder="Enter country name">                        
+       <button onclick="getCountryData()">Search</button>
+    </div>
+  </section>
+  <section class="info-section">
+    <div class="info-container">
+      <div id="countryInfoHeader">
+        <h2>🌍Explore Country Information</h2>
+        <p>Get essential insights about any country instantly.</p>
+      </div>
+      <div id="countryInfo">
+        <!-- Card goes here -->
+        <div class="card">
+          <img src="flag.png" alt="Flag" />
+          <h3>Country Name</h3>
+          <p>Capital: New Delhi</p>
+          <P>Currency: Indian Rupee (INR)</P>
+          <p>Language: English, Hindi, Tamil</p>
+          <p>Population:  1,380,004,385</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- About Us Section -->
+  <!-- About Us Section -->
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We created Country Explorer to make learning about countries easy and enjoyable. Just type a country name and get quick facts at your fingertips!</p>
+  </section>
+  <!-- Contact Us Section -->
+<section class="contact-us">
+    <h2>Contact Us 📬</h2>
+    <div class="contact-details">
+      <p><i class="fas fa-user"></i> Name: RenugaDevi S</p>
+      <p><i class="fas fa-envelope"></i> Email: renugadevi@example.com</p>
+      <p><i class="fas fa-phone"></i> Phone: +91 98765 43210</p>
+    </div>
+  </section>
+  
+  <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  
+  <!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2025 Country Explorer. All rights reserved.</p>
+    <p>Created with ❤️ by RenugaDevi S</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
